@@ -27,7 +27,7 @@
     />
     <link
       href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
+      rel="stylesheet" 
     />
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
