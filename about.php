@@ -43,19 +43,19 @@
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center">
-        <h1 class="logo me-auto"><a href="index.html">YogaBar</a></h1>
+        <h1 class="logo me-auto"><a href="index.php">YogaBar</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <!-- <a href="index.php" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="about.html">About</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="tregister.html">Trainers</a></li>
-            <!--<li><a href="blogs.html">Blogs</a></li>
-          <li><a href="contact.html">Contact</a></li>-->
+            <li><a href="index.php">Home</a></li>
+            <li><a class="active" href="about.php">About</a></li>
+            <li><a href="courses.php">Courses</a></li>
+            <li><a href="products.php">Products</a></li>
+            <li><a href="tregister.php">Trainers</a></li>
+            <!--<li><a href="blogs.php">Blogs</a></li>
+          <li><a href="contact.php">Contact</a></li>-->
             <li data-bs-toggle="modal" data-bs-target="#exampleModal">
               <a href="#">Register</a>
             </li>
@@ -65,7 +65,7 @@
         </nav>
         <!-- .navbar -->
 
-        <a href="login.html" class="get-started-btn">Login</a>
+        <a href="login.php" class="get-started-btn">Login</a>
       </div>
     </header>
     <!-- End Header -->

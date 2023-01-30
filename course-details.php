@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Courses - YogaBar</title>
+    <title>Course Details - YogaBar</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -35,179 +35,214 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
+
+    <script src="https://kit.fontawesome.com/3da1a747b2.js"></script>
+    <link rel="stylesheet" href="dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center">
-        <h1 class="logo me-auto"><a href="index.html">YogaBar</a></h1>
+        <h1 class="logo me-auto"><a href="index.php">YogaBar</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <!-- <a href="index.php" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a class="active" href="courses.html">Courses</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="tregister.html">Trainers</a></li>
-            <!-- <li><a href="blogs.html">Blogs</a></li>
-            <li><a href="contact.html">Contact</a></li> -->
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a class="active" href="courses.php">Courses</a></li>
+            <li><a href="products.php">Products</a></li>
+            <li><a href="tregister.php">Trainers</a></li>
+            <!-- <li><a href="blogs.php">Blogs</a></li>
+          <li><a href="contact.php">Contact</a></li> -->
             <li data-bs-toggle="modal" data-bs-target="#exampleModal">
               <a href="#">Register</a>
             </li>
           </ul>
-
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
         <!-- .navbar -->
 
-        <a href="login.html" class="get-started-btn">Login</a>
+        <a href="login.php" class="get-started-btn">Login</a>
       </div>
     </header>
     <!-- End Header -->
 
-    <main id="main" data-aos="fade-in">
+    <main id="main">
       <!-- ======= Breadcrumbs ======= -->
-      <div class="breadcrumbs">
+      <div class="breadcrumbs" data-aos="fade-in">
         <div class="container">
-          <h2 style="margin-top: 0px">Courses</h2>
+          <h2>Course Details</h2>
         </div>
       </div>
       <!-- End Breadcrumbs -->
 
-      <!-- ======= Courses Section ======= -->
-      <section id="courses" class="courses">
-        <div class="container" data-aos="fade-up">
-          <div class="row" data-aos="zoom-in" data-aos-delay="100">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="course-item">
-                <img
-                  src="assets/course-image/c1.jpeg"
-                  class="img-fluid"
-                  alt="..."
-                />
-                <div class="course-content">
-                  <div
-                    class="d-flex justify-content-between align-items-center mb-3"
-                  >
-                    <p class="price">Rs. 1000</p>
-                  </div>
+      <!-- ======= Cource Details Section ======= -->
+      <section class="bootcamp mt-5">
+        <div class="container">
+          <h1 style="text-align: center">100 hours of course</h1>
+          <div class="row">
+            <!-- Main col -->
+            <div class="col-md-7" style="margin-top: 50px">
+              <!-- Image -->
+              <img
+                src="assets/img/yogapose.jpeg"
+                class="img-thumbnail"
+                alt=""
+              />
+              <h1 class="text-center my-4" style="margin-top: 50px">
+                <span
+                  class="badge badge-secondary badge-success rounded-circle p-3"
+                  >70</span
+                >
+                No of Videoss
+              </h1>
+              <p class="text-center" style="font-size: 30px">
+                Cost: <span class="text-primary">Rs. 1000</span>
+              </p>
 
-                  <h3>
-                    <a href="course-details.html"
-                      >Change Your Breath, Change Your Life</a
-                    >
-                  </h3>
-                  <p>
-                    learn how to recognize abnormal breathing patterns that lead
-                    to dis-ease within the mind and body. By recognizing these
-                    abnormal patterns, you can then learn to correct them.
+              <div class="card mb-3">
+                <h5 class="card-header bg-primary text-white">
+                  Course Summary
+                </h5>
+                <div class="card-body">
+                  <h5 class="card-title">Duration: 8 Weeks</h5>
+                  <p class="card-text">
+                    A good mind-set and a healthy body contribute to a better
+                    life. Our aim as a team is to provide the tools how to apply
+                    this knowledge in daily life.
                   </p>
-                  <div
-                    class="trainer d-flex justify-content-between align-items-center"
-                  >
-                    <div
-                      class="trainer-profile img-fluid d-flex align-items-center"
-                    >
-                      <span>Antonio</span>
-                    </div>
-                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-4">
+                <h5 class="card-header bg-primary text-white">Details</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Course Descriptions</h5>
+                  <p class="card-text">
+                    A good mind-set and a healthy body contribute to a better
+                    life. Our aim as a team is to provide the tools how to apply
+                    this knowledge in daily life.
+                  </p>
+                  <h5 class="card-title">Syllabus</h5>
+                  <ul class="list-group mb-3">
+                    <li class="list-group-item">
+                      chapters (1 per day) featuring fundamentals of Yoga.
+                    </li>
+                    <li class="list-group-item">
+                      12 detox smoothie recipes to supplement Sadie's yoga
+                      sequences
+                    </li>
+                    <li class="list-group-item">
+                      6 hours of yoga video routines & sequences
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-            <!-- End Course Item-->
-
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
-            >
-              <div class="course-item">
-                <img
-                  src="assets/course-image/c2.jpeg"
-                  class="img-fluid"
-                  alt="..."
-                />
-                <div class="course-content">
-                  <div
-                    class="d-flex justify-content-between align-items-center mb-3"
-                  >
-                    <p class="price">Rs. 700</p>
-                  </div>
-
-                  <h3>
-                    <a href="course-details.html"
-                      >Breath is Life: Pranayama, meditation course - Yoga
-                      Alliance</a
-                    >
-                  </h3>
-                  <p>
-                    Everyone that wants to learn more about the power of
-                    breathing. People that want to deepen their yoga practice
-                    and yoga instructors. Basically everybody ! Essential for
-                    athletes, athletes, healers, life coaches.
+            <!-- Sidebar -->
+            <div class="col-md-5" style="margin-top: 50px">
+              <div class="card md-4">
+                <h5 class="card-header bg-primary text-white">Course Videos</h5>
+                <div class="card-body">
+                  <p class="card-text">
+                    A good mind-set and a healthy body contribute to a better
+                    life. Our aim as a team is to provide the tools how to apply
+                    this knowledge in daily life.
                   </p>
-                  <div
-                    class="trainer d-flex justify-content-between align-items-center"
-                  >
-                    <div
-                      class="trainer-profile img-fluid d-flex align-items-center"
+
+                  <ul class="list-group mb-3">
+                    <li class="list-group-item">
+                      <a href="#"
+                        >14 chapters (1 per day) featuring fundamentals of
+                        Yoga.</a
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <a href="#"
+                        >12 detox smoothie recipes to supplement Sadie's yoga
+                        sequences</a
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <a href="#">6 hours of yoga video routines & sequences</a>
+                    </li>
+                    <li class="list-group-item">
+                      <a href="#"
+                        >14 chapters (1 per day) featuring fundamentals of
+                        Yoga.</a
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <a href="#"
+                        >12 detox smoothie recipes to supplement Sadie's yoga
+                        sequences</a
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <a href="#">6 hours of yoga video routines & sequences</a>
+                    </li>
+                    <li class="list-group-item">
+                      <a href="#"
+                        >14 chapters (1 per day) featuring fundamentals of
+                        Yoga.</a
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <a href="#"
+                        >12 detox smoothie recipes to supplement Sadie's yoga
+                        sequences
+                      </a>
+                    </li>
+
+                    <li class="list-group-item">
+                      <a href="#">6 hours of yoga video routines & sequences</a>
+                    </li>
+                  </ul>
+                  <a href="payment.php">
+                    <button
+                      type="submit"
+                      class="md-4"
+                      style="text-align: center"
                     >
-                      <span>Lana</span>
-                    </div>
-                  </div>
+                      Buy Now
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
-            <!-- End Course Item-->
-
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
-            >
-              <div class="course-item">
-                <img
-                  src="assets/course-image/c3.jpeg"
-                  class="img-fluid"
-                  alt="..."
-                />
-                <div class="course-content">
-                  <div
-                    class="d-flex justify-content-between align-items-center mb-3"
-                  >
-                    <p class="price">Rs.450</p>
-                  </div>
-
-                  <h3>
-                    <a href="course-details.html"
-                      >15 Minutes x 15 Days Yoga Mobility Challenge
-                    </a>
-                  </h3>
-                  <p>
-                    In just 15 days, world-renowned yoga instructor and founder
-                    of Yoga 15, Abi Carver will take you through a systematic
-                    progression of videos, designed to improve your flexibility
-                    from head to toe. And it only takes 15 minutes each day!
-                  </p>
-                  <div
-                    class="trainer d-flex justify-content-between align-items-center"
-                  >
-                    <div
-                      class="trainer-profile img-fluid d-flex align-items-center"
-                    >
-                      <span>Brandon</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End Course Item-->
           </div>
         </div>
       </section>
-      <!-- End Courses Section -->
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"
+      ></script>
+
+      <script src="dist/js/mapbox.js"></script>
+      <!-- End Cource Details Section -->
     </main>
     <!-- End #main -->
-
+    <hr />
     <!-- ======= Footer ======= -->
     <footer id="footer">
       <div class="footer-top">
@@ -238,7 +273,6 @@
       </div>
     </footer>
     <!-- End Footer -->
-
     <div id="preloader"></div>
     <a
       href="#"
@@ -355,7 +389,6 @@
       </div>
     </div>
   </div>
-
   <script>
     (function () {
       "use strict";

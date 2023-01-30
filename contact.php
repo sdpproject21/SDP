@@ -5,16 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>About - YogaBar</title>
+  <title>Contact - YogaBar</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
   <!-- <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
-
-  <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -30,7 +27,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -39,136 +35,104 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">YogaBar</a></h1>
+      <h1 class="logo me-auto"><a href="index.php">YogaBar</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <!-- <a href="index.php" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="tregister.html">Trainers</a></li>
-          <li><a class="active" href="blogs.html">Blogs</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="courses.php">Courses</a></li>
+          <li><a href="products.php">Products</a></li>
+          <li><a href="tregister.php">Trainers</a></li>
+          <li><a href="blogs.php">Blogs</a></li>
+          <li><a class="active" href="contact.php">Contact</a></li>
           <li data-bs-toggle="modal" data-bs-target="#exampleModal"><a href="#">Register</a></li>
         </ul>
-
-          
-        
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="login.html" class="get-started-btn">Login</a>
+      <a href="login.php" class="get-started-btn">Login</a>
 
     </div>
   </header><!-- End Header -->
 
   <main id="main">
+
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs" data-aos="fade-in">
       <div class="container">
-        <h2>About Us</h2>
+        <h2>Contact Us</h2>
         <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
       </div>
     </div><!-- End Breadcrumbs -->
-<!--=========Blogs Sectiions========-->
-<section class="section blog-wrap bg-gray">
-  <div class="container">
-      <div class="row">
-<div class="col-lg-6 col-md-6 mb-5">
-  <div class="blog-item">
-    <img src="assets/blogs-image/b4.jpeg" alt="" class="img-fluid rounded">
 
-    <div class="blog-item-content bg-white p-5">
-      <div class="blog-item-meta bg-gray py-1 px-2">
-        <span class="text-muted text-capitalize mr-3"><i class="ti-pencil-alt mr-2"></i>Creativity</span>
-        <span class="text-muted text-capitalize mr-3"><i class="ti-comment mr-2"></i>5 Comments</span>
-        <span class="text-black text-capitalize mr-3"><i class="ti-time mr-1"></i> 28th January</span>
-      </div> 
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+     
 
-      <h3 class="mt-3 mb-3"><a href="blog-single.html">Improve design with typography?</a></h3>
-      <p class="mb-4">Non illo quas blanditiis repellendus laboriosam minima animi. Consectetur accusantium pariatur repudiandae!</p>
+      <div class="container" data-aos="fade-up">
 
-      <a href="blog-single.html" class="btn btn-small btn-main btn-round-full">Learn More</a>
-    </div>
-  </div>
-</div>
+        <div class="row mt-5">
 
-<div class="col-lg-6 col-md-6 mb-5">
-  <div class="blog-item">
-    <img src="assets/blogs-image/b2.jpeg" alt="" class="img-fluid rounded">
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
 
-    <div class="blog-item-content bg-white p-5">
-      <div class="blog-item-meta bg-gray py-1 px-2">
-        <span class="text-muted text-capitalize mr-3"><i class="ti-pencil-alt mr-2"></i>Design</span>
-        <span class="text-muted text-capitalize mr-3"><i class="ti-comment mr-2"></i>5 Comments</span>
-        <span class="text-black text-capitalize mr-3"><i class="ti-time mr-1"></i> 28th January</span>
-      </div>   
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
 
-      <h3 class="mt-3 mb-3"><a href="blog-single.html">Interactivity connect consumer</a></h3>
-      <p class="mb-4">Non illo quas blanditiis repellendus laboriosam minima animi. Consectetur accusantium pariatur repudiandae!</p>
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 5589 55488 55s</p>
+              </div>
 
-      <a href="blog-single.html" class="btn btn-small btn-main btn-round-full">Learn More</a>
-    </div>
-  </div>
-</div>
+            </div>
 
-<div class="col-lg-6 col-md-6 mb-5">
-  <div class="blog-item">
-    <img src="assets/blogs-image/b3.jpeg" alt="" class="img-fluid rounded">
-
-    <div class="blog-item-content bg-white p-5">
-      <div class="blog-item-meta bg-gray py-1 px-2">
-        <span class="text-muted text-capitalize mr-3"><i class="ti-pencil-alt mr-2"></i>Community</span>
-        <span class="text-muted text-capitalize mr-3"><i class="ti-comment mr-2"></i>5 Comments</span>
-        <span class="text-black text-capitalize mr-3"><i class="ti-time mr-1"></i> 28th January</span>
-      </div>  
-
-      <h3 class="mt-3 mb-3"><a href="blog-single.html">Marketing Strategy to bring more affect</a></h3>
-      <p class="mb-4">Non illo quas blanditiis repellendus laboriosam minima animi. Consectetur accusantium pariatur repudiandae!</p>
-
-      <a href="blog-single.html" class="btn btn-small btn-main btn-round-full">Learn More</a>
-    </div>
-  </div>
-</div>
-<div class="col-lg-6 col-md-6 mb-5">
-  <div class="blog-item">
-    <img src="assets/blogs-image/b3.jpeg" alt="" class="img-fluid rounded">
-
-    <div class="blog-item-content bg-white p-5">
-      <div class="blog-item-meta bg-gray py-1 px-2">
-        <span class="text-muted text-capitalize mr-3"><i class="ti-pencil-alt mr-2"></i>Marketing</span>
-        <span class="text-muted text-capitalize mr-3"><i class="ti-comment mr-2"></i>5 Comments</span>
-        <span class="text-black text-capitalize mr-3"><i class="ti-time mr-1"></i> 28th January</span>
-      </div>  
-
-      <h3 class="mt-3 mb-3"><a href="blog-single.html">Marketing Strategy to bring more affect</a></h3>
-      <p class="mb-4">Non illo quas blanditiis repellendus laboriosam minima animi. Consectetur accusantium pariatur repudiandae!</p>
-
-      <a href="blog-single.html" class="btn btn-small btn-main btn-round-full">Learn More</a>
-    </div>
-  </div>
-</div>
-</div>
-
-      <div class="row justify-content-center mt-5">
-          <div class="col-lg-6 text-center">
-            <nav class="navigation pagination d-inline-block">
-                <div class="nav-links">
-                    <a class="prev page-numbers" href="#">Prev</a>
-                    <span aria-current="page" class="page-numbers current">1</span>
-                    <a class="page-numbers" href="#">2</a>
-                    <a class="next page-numbers" href="#">Next</a>
-                </div>
-            </nav>
           </div>
-      </div>
-  </div>
-</section>
 
-<!--==============Blogs Section End ===========-->
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -255,28 +219,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <!--********************************-->
-  <!-- Main jQuery -->
-  <script src="plugins/jquery/jquery.js"></script>
-  <script src="js/contact.js"></script>
-  <!-- Bootstrap 4.3.1 -->
-  <script src="plugins/bootstrap/js/popper.js"></script>
-  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
- <!--  Magnific Popup-->
-  <script src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-  <!-- Slick Slider -->
-  <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-  <!-- Counterup -->
-  <script src="plugins/counterup/jquery.waypoints.min.js"></script>
-  <script src="plugins/counterup/jquery.counterup.min.js"></script>
-
-  <!-- Google Map -->
-  <script src="plugins/google-map/map.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
-  
-  <script src="js/script.js"></script>
-  <!--************************************-->
-
 </body>
 
 
@@ -322,7 +264,7 @@
             <button type="button">Register</button>
           </div>
 
-          <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="login.html"
+          <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="login.php"
               class="fw-bold text-body"><u>Login here</u></a></p>
 
         </form>
